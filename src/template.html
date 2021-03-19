@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title><% preact.title %></title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
-		<% preact.headEnd %>
-	</head>
-	<body>
-		<% preact.bodyEnd %>
-	</body>
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		<% preact.title %>
+	</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+
+	<script src="//d3js.org/d3.v5.min.js"></script>
+	<script src="https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js"></script>
+	<script src="https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js"></script>
+
+	<% preact.headEnd %>
+</head>
+
+<body>
+	<% preact.bodyEnd %>
+</body>
+
 </html>
